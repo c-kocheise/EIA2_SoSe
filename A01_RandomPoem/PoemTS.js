@@ -1,4 +1,10 @@
 "use strict";
+/*Aufgabe: L01_RandomPoem
+Name: Christoph Kocheise
+Matrikelnummer: 267341
+Datum: 20.10.22
+Quellen: In Zusammenarbeit mit Jonas Scheid
+*/
 var A01_Poem;
 (function (A01_Poem) {
     let subjects = ["Harry", "Hermine", "Ron", "Dumbledore", "Snape"];

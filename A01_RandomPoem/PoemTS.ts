@@ -1,3 +1,10 @@
+/*Aufgabe: L01_RandomPoem
+Name: Christoph Kocheise
+Matrikelnummer: 267341
+Datum: 20.10.22
+Quellen: In Zusammenarbeit mit Jonas Scheid
+*/
+
 namespace A01_Poem {
     let subjects: string[] = ["Harry", "Hermine", "Ron", "Dumbledore", "Snape"];
     let predicates: string[] = ["dances", "cries", "laughs", "talks", "performs"];
