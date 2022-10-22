@@ -2,11 +2,13 @@
     height: 500px;
     width: 500px;
     background-color: blueviolet;
+    display: inline-block;
 }
 
 .div1 {
     height: 500px;
     width: 500px;
     background-color: brown;
+    display: inline-block;
 }
 
