@@ -1,14 +1,19 @@
 .div0 {
     height: 500px;
     width: 500px;
+    position: relative;
+    top: 30px;
     background-color: blueviolet;
     display: inline-block;
+
 }
 
 .div1 {
     height: 500px;
     width: 500px;
+    position: relative;
     background-color: brown;
     display: inline-block;
+
 }
 
