@@ -1,3 +1,8 @@
+/*Aufgabe: L02_EventInspector
+Name: Christoph Kocheise
+Matrikelnummer: 267341
+Datum: 
+*/
 namespace A02_EventInspector {
 window.addEventListener("load", handleLoad);
 

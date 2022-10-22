@@ -1,4 +1,9 @@
 "use strict";
+/*Aufgabe: L02_EventInspector
+Name: Christoph Kocheise
+Matrikelnummer: 267341
+Datum:
+*/
 var A02_EventInspector;
 (function (A02_EventInspector) {
     window.addEventListener("load", handleLoad);
@@ -13,10 +18,12 @@ var A02_EventInspector;
         div0.addEventListener("keyup", logInfo);
         div1.addEventListener("click", logInfo);
         div1.addEventListener("keyup", logInfo);
-        document.body.addEventListener("keyup", logInfo);
+        document.body.addEventListener("click", logInfo);
         document.body.addEventListener("keyup", logInfo);
     }
     function setInfobox() {
+    }
+    function logInfo() {
     }
 })(A02_EventInspector || (A02_EventInspector = {}));
 //# sourceMappingURL=InspectorTS.js.map
