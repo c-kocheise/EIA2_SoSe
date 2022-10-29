@@ -5,9 +5,8 @@
 }
 body
 {
-    background: #7ad5d0;
+    background-color: black;
     font-size: large;
-    color:#023636;
 }
 #app_container
 {
@@ -17,7 +16,7 @@ body
     border: solid;
     border-width: 3px;
     border-color:#023636;
-    background: #beeeec;
+    background: #e5d7b3;
 }
 #title_space
 {
