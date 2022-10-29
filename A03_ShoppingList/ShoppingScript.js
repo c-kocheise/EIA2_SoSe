@@ -1,4 +1,10 @@
 "use strict";
+/*Aufgabe: L02_EventInspector
+Name: Christoph Kocheise
+Matrikelnummer: 267341
+Datum: 29.10.22
+Quellen: Dennis Grützmacher
+*/
 var ShoppingHelper;
 (function (ShoppingHelper) {
     window.addEventListener("load", assignListeners);
