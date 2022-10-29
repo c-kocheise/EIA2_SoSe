@@ -6,7 +6,7 @@ Datum:
 namespace A02_EventInspector {
 window.addEventListener("load", handleLoad);
 
-function handleLoad (): void{
+function handleLoad (): void {
     let div0: HTMLDivElement = <HTMLDivElement> document.querySelector(".div0");
     let div1: HTMLDivElement = <HTMLDivElement> document.querySelector(".div1");
     // <HTMLDivElement> ist für Fehleranzeige, Wenn div Element null sein kann, man sich aber sicher ist, dass es existiert
@@ -21,7 +21,7 @@ function handleLoad (): void{
     document.body.addEventListener("keyup", logInfo);
 }
 
-function setInfobox (): void{
+function setInfobox (): void {
 }
 function logInfo (): void {
 }
