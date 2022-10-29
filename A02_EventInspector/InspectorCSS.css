@@ -5,7 +5,6 @@
 }
 body
 {
-    background: #969696;
     cursor: default;
 }
 div
@@ -15,7 +14,7 @@ div
     display:inline-block;
     margin:5px;
     height: 400px;
-    width: 400px;
+    width: 500px;
     border-radius: 5px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: larger;
@@ -23,22 +22,22 @@ div
 
 #div0
 {
-    background: #367d78;
+    background: #2b206f;
 }
 
 #div1
 {
-    background: #68b5b0;
+    background: #c63714;
 }
 span
 {
     position: fixed;
     height: 75px;
     width: auto;
-    background: #c0eaec;
+    background: #089a17;
     border-style: solid;
     border-width: 1px;
-    border-color: #2a2965;
+    border-color: #000000;
     border-radius: 3px;
 }
 button

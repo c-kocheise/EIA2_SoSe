@@ -8,10 +8,10 @@ namespace EventInspector
 {
     let xPosition: number;
     let yPosition: number;
-    let div0: HTMLElement = document.getElementById("div0");
-    let div1: HTMLElement = document.getElementById("div1");
-    let button1: HTMLElement = document.getElementById("button1");
-    let infoBox: HTMLElement = document.getElementById("span1");
+    let div0: HTMLDivElement = <HTMLDivElement> document.getElementById("div0");
+    let div1: HTMLDivElement = <HTMLDivElement> document.getElementById("div1");
+    let button1: HTMLElement = <HTMLDivElement> document.getElementById("button1");
+    let infoBox: HTMLElement = <HTMLDivElement> document.getElementById("span1");
     window.addEventListener("load", handleLoad); 
     
     function handleLoad(): void
