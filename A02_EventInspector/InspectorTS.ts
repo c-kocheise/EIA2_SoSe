@@ -1,9 +1,9 @@
 /*Aufgabe: L02_EventInspector
 Name: Christoph Kocheise
 Matrikelnummer: 267341
-Datum: 
+Datum: 23.10.22
+Quellen: Dennis Grützmacher
 */
-
 namespace EventInspector
 {
     let xPosition: number;
