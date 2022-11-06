@@ -1,38 +1,39 @@
 "use strict";
-var A04_Einkaufsliste_Datenstruktur;
-(function (A04_Einkaufsliste_Datenstruktur) {
-    /*
-          Aufgabe: A04_Einkaufsliste_Datenstruktur
-          Name: Christoph Kocheise
-          Matrikel: <271344>
-          Datum: < 05.11.2022  >
-          Quellen: < Nathan Haider  >
-    */
-    A04_Einkaufsliste_Datenstruktur.data = {
-        entry: [
+/*Aufgabe: L04_Einkaufsliste_Datenstruktur
+Name: Christoph Kocheise
+Matrikelnummer: 267341
+Datum: 05.11.22
+Quellen: Dennis Grützmacher
+*/
+var A04_ShoppingHelper;
+(function (A04_ShoppingHelper) {
+    A04_ShoppingHelper.shoppingList = {
+        Liste: [
             {
-                name: "Gurke",
-                amount: 2,
-                comment: "große Gurken",
-                check: true,
-                date: "20.10.2022"
+                product: "Hundefutter",
+                quantity: 2,
+                comment: "Weichfutter für den Wuffel.",
+                inCart: false,
+                bought: false,
+                lastPurchase: "05.11.2022"
             },
             {
-                name: "Milch",
-                amount: 1,
-                comment: "Flasche",
-                check: false,
-                date: "5.09.2022"
+                product: "Salat",
+                quantity: 1,
+                comment: "Feld- oder Eisebergsalat.",
+                inCart: false,
+                bought: false,
+                lastPurchase: "02.11.2022"
             },
             {
-                name: "Reis",
-                amount: 4,
-                comment: "Tüten",
-                check: false,
-                date: "7.08.2022"
+                product: "Popcorn",
+                quantity: 4,
+                comment: "2 x salzig, 2 x süß, für den Filmabend",
+                inCart: false,
+                bought: false,
+                lastPurchase: "01.11.2022"
             }
         ]
     };
-    A04_Einkaufsliste_Datenstruktur.item = "";
-})(A04_Einkaufsliste_Datenstruktur || (A04_Einkaufsliste_Datenstruktur = {}));
+})(A04_ShoppingHelper || (A04_ShoppingHelper = {}));
 //# sourceMappingURL=Data.js.map
