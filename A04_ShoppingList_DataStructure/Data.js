@@ -10,28 +10,28 @@ var A04_ShoppingHelper;
     A04_ShoppingHelper.shoppingList = {
         Liste: [
             {
-                product: "Hundefutter",
+                product: "Schupfnudeln",
                 quantity: 2,
-                comment: "Weichfutter für den Wuffel.",
+                comment: "Für Krautnudeln",
                 inCart: false,
                 bought: false,
-                lastPurchase: "05.11.2022"
+                lastPurchase: "04.11.2022"
             },
             {
-                product: "Salat",
+                product: "Klopapier",
+                quantity: 3,
+                comment: "Falls der Lockdown kommt.",
+                inCart: false,
+                bought: false,
+                lastPurchase: "04.11.2022"
+            },
+            {
+                product: "Waffeln",
                 quantity: 1,
-                comment: "Feld- oder Eisebergsalat.",
+                comment: "Lecker",
                 inCart: false,
                 bought: false,
                 lastPurchase: "02.11.2022"
-            },
-            {
-                product: "Popcorn",
-                quantity: 4,
-                comment: "2 x salzig, 2 x süß, für den Filmabend",
-                inCart: false,
-                bought: false,
-                lastPurchase: "01.11.2022"
             }
         ]
     };
